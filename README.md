@@ -6,7 +6,7 @@ each plugin as `<plugin>@tinkerbench-studio`.
 
 | Plugin | Repository | What it is |
 | --- | --- | --- |
-| `tick-it` | [tinkerbench-studio/tick-it](https://github.com/tinkerbench-studio/tick-it) (`mod/`) | Tick-it tickets, board and review agents in the session |
+| `tick-it` | [tinkerbench-studio/tick-it-claude-mod](https://github.com/tinkerbench-studio/tick-it-claude-mod) | Tick-it tickets, board and review agents in the session |
 | `drawing-board` | [tinkerbench-studio/drawing-board](https://github.com/tinkerbench-studio/drawing-board) (`plugin/`) | Design workflows: prototype first, canvas and Storybook in step, flow pages, UX pictures |
 
 ## Using it in a project
