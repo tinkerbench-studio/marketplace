@@ -14,6 +14,11 @@
       "name": "drawing-board",
       "source": { "source": "git-subdir", "url": "tinkerbench-studio/drawing-board", "path": "plugin", "ref": "v0.3.1" },
       "description": "Design workflows for any project with a design canvas and Storybook: designing on a prototype page first, keeping the canvas, its committed snapshot and Storybook in step, flow-based canvas pages, and the board-beside-story picture a UX change carries."
+    },
+    {
+      "name": "vibesec",
+      "source": "./plugins/vibesec",
+      "description": "VibeSec-Skill, a general secure-web-application skill: Claude applies it when writing web code or when asked to scan or audit it. Not specific to Tick-it or the design canvas."
     }
   ]
 }
