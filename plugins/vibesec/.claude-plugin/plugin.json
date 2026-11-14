@@ -1,0 +1,7 @@
+{
+  "name": "vibesec",
+  "version": "1.0.0",
+  "description": "VibeSec-Skill: secure-web-application guidance for Claude, applied when writing web code or auditing it.",
+  "author": { "name": "tinkerbench-studio" },
+  "license": "Apache-2.0"
+}
