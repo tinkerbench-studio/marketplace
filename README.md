@@ -8,7 +8,7 @@ each plugin as `<plugin>@tinkerbench-studio`.
 | --- | --- | --- |
 | `tick-it` | [tinkerbench-studio/tick-it-claude-mod](https://github.com/tinkerbench-studio/tick-it-claude-mod) | Tick-it tickets, board and review agents in the session |
 | `drawing-board` | [tinkerbench-studio/drawing-board](https://github.com/tinkerbench-studio/drawing-board) (`plugin/`) | Design workflows: prototype first, canvas and Storybook in step, flow pages, UX pictures |
-| `vibesec` | this repository (`plugins/vibesec/`) | `VibeSec-Skill`: secure-web-application guidance, for any project that writes or audits web code |
+| `vibesec` | this repository (`plugins/vibesec/`) | `VibeSec-Skill` by [BehiSecc](https://github.com/BehiSecc/VibeSec-Skill), redistributed unchanged under Apache 2.0: secure-web-application guidance, for any project that writes or audits web code |
 
 ## Using it in a project
 

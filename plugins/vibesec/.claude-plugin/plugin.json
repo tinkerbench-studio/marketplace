@@ -2,6 +2,8 @@
   "name": "vibesec",
   "version": "1.0.0",
   "description": "VibeSec-Skill: secure-web-application guidance for Claude, applied when writing web code or auditing it.",
-  "author": { "name": "tinkerbench-studio" },
+  "author": { "name": "BehiSecc", "url": "https://github.com/BehiSecc" },
+  "homepage": "https://github.com/BehiSecc/VibeSec-Skill",
+  "repository": "https://github.com/BehiSecc/VibeSec-Skill",
   "license": "Apache-2.0"
 }
