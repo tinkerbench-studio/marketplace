@@ -7,12 +7,12 @@
   "plugins": [
     {
       "name": "tick-it",
-      "source": { "source": "github", "repo": "tinkerbench-studio/tick-it-claude-mod", "ref": "v0.50.23" },
+      "source": { "source": "github", "repo": "tinkerbench-studio/tick-it-claude-mod", "ref": "v0.50.25" },
       "description": "Tick-it tickets in the session, from the Tick-it MCP server: a board, the ticket's brief for Claude, a size budget on edits, and review agents that steward it to Done."
     },
     {
       "name": "drawing-board",
-      "source": { "source": "git-subdir", "url": "tinkerbench-studio/drawing-board", "path": "plugin", "ref": "v0.5.0" },
+      "source": { "source": "git-subdir", "url": "tinkerbench-studio/drawing-board", "path": "plugin", "ref": "v0.5.1" },
       "description": "Design workflows for any project with a design canvas and Storybook: designing on a prototype page first, keeping the canvas, its committed snapshot and Storybook in step, flow-based canvas pages, and the board-beside-story picture a UX change carries."
     },
     {
