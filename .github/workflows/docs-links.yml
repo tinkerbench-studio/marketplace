@@ -1,0 +1,35 @@
+name: Docs links
+
+# Fails when a Markdown link, an `#anchor`, or a `docs/<path>.md` mention anywhere in a tracked file points at a file or
+# heading that does not exist. It is the check of the private @tinkerbench-studio/repo-checks package
+# (tinkerbench-studio/ways-of-working, packages/repo-checks), run through `npx` at an exact version, so a change to the
+# check reaches this repository only when it moves the pin. Its roots and skips, if any, are `repo-checks.json`.
+# The job reads the package with the workflow's `GITHUB_TOKEN`, which needs the package's "Manage Actions access" to
+# include this repository (read); without it the job fails with `403 permission_denied: read_package`.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  packages: read
+
+jobs:
+  docs-links:
+    name: Docs links
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          registry-url: https://npm.pkg.github.com
+          scope: '@tinkerbench-studio'
+      - name: Check that every file and heading a link or docs path names exists
+        run: npx --yes @tinkerbench-studio/repo-checks@0.1.0 docs-links
