@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "tick-it",
-      "source": { "source": "github", "repo": "tinkerbench-studio/tick-it-claude-mod", "ref": "v0.50.39" },
+      "source": { "source": "github", "repo": "tinkerbench-studio/tick-it-claude-mod", "ref": "v0.50.40" },
       "description": "Tick-it tickets in the session, from the Tick-it MCP server: a board, the ticket's brief for Claude, a size budget on edits, and review agents that steward it to Done."
     },
     {
